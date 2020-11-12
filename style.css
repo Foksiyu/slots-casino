@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.container{
+    height: 90vh;
+    width: 110vh;
+    background: rgb(93, 93, 245);
+    margin: 5vh auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+
+.card {
+padding: 20px;
+font: 20px / 1 sans-serif;
+border-radius: 50%;
+background: black;
+color: cornflowerblue;
+text-align: center;
+height: 30px;
+}
+.card:hover {
+    background: deepskyblue;
+}
